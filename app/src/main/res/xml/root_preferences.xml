@@ -1,0 +1,25 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Cria uma PreferenceCategory -->
+    <PreferenceCategory app:title="@string/settings">
+
+        <!--
+             Cria uma ListPreference
+             entradas estão presentes em: @array/entries
+             seus valores: @array/values
+
+             você pode apertar CTRL e clickar para ver mais infos.
+         -->
+
+        <ListPreference
+            android:defaultValue="enabled"
+            android:entries="@array/entries"
+            android:entryValues="@array/values"
+            android:key="gesture_options"
+            android:summary="%s"
+            android:title="@string/back_gesture" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

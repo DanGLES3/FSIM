@@ -1,0 +1,13 @@
+<resources>
+    <string name="fsim_config">FSIM Config.</string> <!-- Título do app, veja "AndroidManifest.xml" android:label="@string/fsim_config" -->
+    <string name="settings">Settings</string>
+    <string name="back_gesture">Back gesture</string>
+    <string name="disable_completely">Disable completely</string>
+    <string name="mdefault">Default</string>
+    <string name="left_only">Left only</string>
+    <string name="error">Error</string>
+    <string name="error_msg">Root is required to use this app</string>
+    <string name="enabled">Enabled</string>
+    <string name="about">About</string>
+    <string name="dummy">Dummy</string>
+</resources>

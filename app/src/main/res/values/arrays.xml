@@ -1,0 +1,13 @@
+<resources>
+    <string-array name="entries">
+        <item>@string/enabled</item>
+        <item>@string/left_only</item>
+        <item>@string/disable_completely</item>
+    </string-array>
+
+    <string-array name="values">
+        <item>enabled</item>
+        <item>left_only</item>
+        <item>disabled_completely</item>
+    </string-array>
+</resources>
